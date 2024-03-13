@@ -10,7 +10,6 @@ interface Props {
 }
 export const Header = ({ setMovies, setSearch }: Props) => {
     const [open, setOpen] = React.useState(false);
-
     return (
         <header>
             <div className="flex justify-between py-5" >
