@@ -14,7 +14,7 @@ export const Header = ({ setMovies, setSearch }: Props) => {
     return (
         <header>
             <div className="flex justify-between py-5" >
-                <img src="../../../public/videotube.png" alt="logo" />
+                <img src="https://i.ibb.co/ncsRFdV/videotube.png" alt="logo" />
                 <div className="flex items-center">
                     <input
                         onChange={(e) => setSearch(e.target.value)}
